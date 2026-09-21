@@ -1,0 +1,29 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
+*.log
+
+# Environment and secrets — never commit these
+.env
+.env.local
+*.key
+*.pem
+
+# Local working files
+scratch/
+tmp/
+*.tmp
